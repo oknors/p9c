@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "downloads",
+  "info": {
+    "name": "download"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "source": {
+      "type": "boolean"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

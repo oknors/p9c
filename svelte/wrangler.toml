@@ -1,0 +1,8 @@
+name = "parallelcoininfo"
+type = "webpack"
+account_id = '6f4924137f40d1ae80786e8a115d2e64'
+route = '*.parallelcoin.*'
+usage_model = ''
+compatibility_flags = []
+workers_dev = true
+site = {bucket = "./build",entry-point = "./workers-site"}
