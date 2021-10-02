@@ -7,5 +7,6 @@ module.exports = ({ env }) => ({
     auth: {
       secret: env('ADMIN_JWT_SECRET', 'a1f691d9c4a55c7fb6fa9dbb798f16b4'),
     },
+    url: 'https://admin.parallelcoin.io',
   },
 });
