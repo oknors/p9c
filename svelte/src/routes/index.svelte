@@ -4,11 +4,23 @@
 
 <script>
     import { getContext } from 'svelte';
+
+        import ParallelCoin from '$lib/sub/ParallelCoin.svelte';
+        import WWW from '$lib/sub/WWW.svelte';
+        import Where from '$lib/sub/Where.svelte';
+
     const sub = getContext('sub');
-    let path = '../lib/sub/' + sub + '.svelte'
-    import(path.toString()).then(res => (COMponent = res.default));
+    
 </script>
 
  sub:{sub} :I
-
+ {#if sub === ""}
+<ParallelCoin></ParallelCoin>
+{/if}
+{#if sub === "www"}
+<WWW></WWW>
+{/if}
+{#if sub === "where"}
+<Where></Where>
+{/if}
 <svelte:component this={COMponent}></svelte:component>

@@ -6,7 +6,7 @@
         <HeadTitle>Where is ParallelCoin???</HeadTitle>
         <div class="my-24 worp" >
 
-            <amp-list layout="responsive" width="600" height="900" src="//localhost:1337/subs" reset-on-refresh
+            <amp-list layout="responsive" width="600" height="300" src="https://api.parallelcoin.io/subs" reset-on-refresh single-item items="."
                   binding="no">
                   {`{{ . }}`}
             <template type="amp-mustache">
@@ -24,7 +24,7 @@
         </div>
         <p class="worp"><Socials></Socials></p>
              <amp-img
-                alt="ParallelCoin - Plan 9 from Crypt-Space - Ruler"
+                alt="ParallelCoin - Plan 9 from Crypto-Space - Ruler"
                 src="https://s.okno.rs/parallelcoin/img/rulerdesk.png"
                 width="500"
                 height="332"

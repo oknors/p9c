@@ -33,9 +33,11 @@ bower_components
 
 # node-waf configuration
 .lock-wscript
+.svelte-kit
 
 # Compiled binary addons (https://nodejs.org/api/addons.html)
 build/Release
+build
 
 # Dependency directories
 node_modules/
