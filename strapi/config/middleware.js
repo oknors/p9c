@@ -9,6 +9,8 @@ module.exports = {
     settings: {
         cors: {
             origin: ['*'],
+            expose: ['AMP-Access-Control-Allow-Source-Origin'],
+            headers: ['AMP-Access-Control-Allow-Source-Origin'],
         },
     },
 };
