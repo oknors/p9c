@@ -6,6 +6,7 @@
     import { getContext } from 'svelte';
 
         import ParallelCoin from '$lib/sub/ParallelCoin.svelte';
+        import API from '$lib/sub/API.svelte';
         import WWW from '$lib/sub/WWW.svelte';
         import Where from '$lib/sub/Where.svelte';
 
@@ -14,8 +15,11 @@
 </script>
 
  sub:{sub} :I
- {#if sub === ""}
+{#if sub === ""}
 <ParallelCoin></ParallelCoin>
+{/if}
+{#if sub === "api"}
+<API></API>
 {/if}
 {#if sub === "www"}
 <WWW></WWW>

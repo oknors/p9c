@@ -1,16 +1,10 @@
 module.exports = {
-    load: {
-        before: ['responseTime', 'logger', 'cors', 'responses', 'gzip'],
-        order: [
-            "Define the middlewares' load order by putting their name in this array is the right order",
-        ],
-        after: ['parser', 'router'],
-    },
     settings: {
         cors: {
-            origin: ['*'],
-            expose: ['AMP-Redirect-To'],
-            headers: ['AMP-Access-Control-Allow-Source-Origin'],
-        },
-    },
+            enabled: true,
+            headers: "*",
+            origin:"*",
+            expose: ["AMP-Access-Control-Allow-Source-Origin", "AMP-Redirect-To"]
+        }
+    }
 };
