@@ -6,7 +6,6 @@
     import { getContext } from 'svelte';
 
         import ParallelCoin from '$lib/sub/ParallelCoin.svelte';
-        import API from '$lib/sub/API.svelte';
         import WWW from '$lib/sub/WWW.svelte';
         import Where from '$lib/sub/Where.svelte';
 
