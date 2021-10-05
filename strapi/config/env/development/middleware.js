@@ -10,7 +10,6 @@ module.exports = {
             headers: [
                 'Content-Type',
                 'Authorization',
-                'X-Frame-Options',
                 'Origin',
                 'AMP-Access-Control-Allow-Source-Origin',
                 'Access-Control-Allow-Headers',
