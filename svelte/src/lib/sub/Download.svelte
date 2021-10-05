@@ -5,7 +5,7 @@
 </script>
 <div class="flex flex-col text-center parallelcoin">rrrrr
 
-            <amp-list layout="responsive" width="600" height="300" src="https://api.parallelcoin.io/downloads" reset-on-refresh single-item items="."
+            <amp-list layout="responsive" width="600" height="300" src="https://api.parallelcoin.info/downloads" reset-on-refresh single-item items="."
                   binding="no">
                   {`{{ . }}`}
             <template type="amp-mustache">

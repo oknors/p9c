@@ -6,7 +6,7 @@
         <HeadTitle>Where is ParallelCoin???</HeadTitle>
         <div class="my-24 worp" >
 
-            <amp-list layout="responsive" width="600" height="300" src="https://api.parallelcoin.io/subs" reset-on-refresh single-item items="."
+            <amp-list layout="responsive" width="600" height="300" src="https://api.parallelcoin.info/subs" reset-on-refresh single-item items="."
                   binding="no">
                   {`{{ . }}`}
             <template type="amp-mustache">
