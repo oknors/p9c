@@ -610,10 +610,6 @@ video {
 .m-2 {
 	margin: 0.5rem;
 }
-.my-24 {
-	margin-top: 6rem;
-	margin-bottom: 6rem;
-}
 .my-4 {
 	margin-top: 1rem;
 	margin-bottom: 1rem;
@@ -621,6 +617,10 @@ video {
 .mx-1 {
 	margin-left: 0.25rem;
 	margin-right: 0.25rem;
+}
+.my-24 {
+	margin-top: 6rem;
+	margin-bottom: 6rem;
 }
 .mb-2 {
 	margin-bottom: 0.5rem;
@@ -678,6 +678,9 @@ video {
 }
 .flex-col {
 	flex-direction: column;
+}
+.flex-wrap {
+	flex-wrap: wrap;
 }
 .items-center {
 	align-items: center;
@@ -774,6 +777,10 @@ video {
 .text-xl {
 	font-size: 1.25rem;
 	line-height: 1.75rem;
+}
+.text-3xl {
+	font-size: 1.875rem;
+	line-height: 2.25rem;
 }
 .uppercase {
 	text-transform: uppercase;

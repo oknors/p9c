@@ -7,7 +7,9 @@
 
         import ParallelCoin from '$lib/sub/ParallelCoin.svelte';
         import WWW from '$lib/sub/WWW.svelte';
+        import Download from '$lib/sub/Download.svelte';
         import Where from '$lib/sub/Where.svelte';
+
 
     const sub = getContext('sub');
     
@@ -25,5 +27,8 @@
 {/if}
 {#if sub === "where"}
 <Where></Where>
+{/if}
+{#if sub === "download"}
+<Download></Download>
 {/if}
 <svelte:component this={COMponent}></svelte:component>
