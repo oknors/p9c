@@ -3,7 +3,6 @@ module.exports = {
         cors: {
             enabled: true,
             expose: "AMP-Access-Control-Allow-Source-Origin",
-            expose: ['Access-Control-Expose-Headers', 'AMP-Access-Control-Allow-Source-Origin'],
             maxAge: 31536000,
             methods: ['GET', 'HEAD'],
             headers: [
