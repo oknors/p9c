@@ -19,9 +19,6 @@
 {#if sub === ""}
 <ParallelCoin></ParallelCoin>
 {/if}
-{#if sub === "api"}
-<API></API>
-{/if}
 {#if sub === "www"}
 <WWW></WWW>
 {/if}

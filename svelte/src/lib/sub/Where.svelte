@@ -5,8 +5,8 @@
 <div class="flex flex-col text-center parallelcoin">rrrrr
         <HeadTitle>Where is ParallelCoin???</HeadTitle>
         <div class="my-24 worp" >
-
-            <amp-list layout="responsive" width="600" height="300" src="https://api.parallelcoin.info/subs" reset-on-refresh single-item items="."
+sssss
+            <amp-list layout="responsive" width="600" height="300" src="https://api.parallelcoin.info/subs" reset-on-refresh single-item
                   binding="no">
                   {`{{ . }}`}
             <template type="amp-mustache">
