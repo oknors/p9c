@@ -9,8 +9,6 @@ module.exports = {
             methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS', 'HEAD'],
             headers: [
                 'Content-Type',
-                'Authorization',
-                'Origin',
                 'AMP-Access-Control-Allow-Source-Origin',
                 'Access-Control-Allow-Headers',
                 'Access-Control-Allow-Origin',
