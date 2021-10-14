@@ -1,7 +1,7 @@
 module.exports = ({ env }) => ({
   host: env('HOST', '0.0.0.0'),
-  port: env.int('PORT', 11121),
-  url: 'https://admin.parallelcoin.info',
+  port: env.int('PORT', 11122),
+  url: 'https://admin.parallelcoin.io',
   proxy:true,
   admin: {
     auth: {
