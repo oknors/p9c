@@ -1,7 +1,7 @@
 module.exports = ({ env }) => ({
   host: env('HOST', '0.0.0.0'),
   port: env.int('PORT', 11122),
-  url: 'http://localhost',
+  url: 'http://127.0.0.1',
   proxy:true,
   admin: {
     auth: {
