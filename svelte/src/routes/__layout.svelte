@@ -36,7 +36,6 @@
 
 <svelte:head>
     <script async custom-element="amp-list" src="https://cdn.ampproject.org/v0/amp-list-0.1.js"></script>
-    <script async custom-element="amp-lightbox" src="https://cdn.ampproject.org/v0/amp-lightbox-1.0.js"></script>
     <script async custom-template="amp-mustache" src="https://cdn.ampproject.org/v0/amp-mustache-0.2.js"></script>
     <script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
     <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
@@ -46,7 +45,7 @@
 </svelte:head>
 
 
-
+{#if sub !== "legacy"}
 <div id="layout" class="relative flex flex-col items-center justify-between min-h-screen antialiased font-text text-text-primary ">
     <Bg></Bg>
     <Header>
@@ -58,6 +57,6 @@
     <Footer>
 </Footer>
 </div>
-
-
-
+{:else}
+    <slot></slot>
+{/if}

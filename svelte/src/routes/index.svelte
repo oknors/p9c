@@ -9,13 +9,18 @@
         import WWW from '$lib/sub/WWW.svelte';
         import Download from '$lib/sub/Download.svelte';
         import Where from '$lib/sub/Where.svelte';
+        import Legacy from '$lib/sub/Legacy.svelte';
 
-
+        
     const sub = getContext('sub');
     
 </script>
 
  sub:{sub} :I
+
+
+
+ 
 {#if sub === ""}
 <ParallelCoin></ParallelCoin>
 {/if}
@@ -24,6 +29,9 @@
 {/if}
 {#if sub === "where"}
 <Where></Where>
+{/if}
+{#if sub === "legacy"}
+<Legacy></Legacy>
 {/if}
 {#if sub === "download"}
 <Download></Download>
