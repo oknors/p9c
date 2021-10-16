@@ -3,7 +3,7 @@
       import Socials from '$lib/components/Socials.svelte';
 
 </script>
-<div class="flex flex-col text-center md:container md:mx-auto md:px-0 parallelcoin">
+<div class="flex flex-col text-center md:container md:mx-auto md:px-0">
         <HeadTitle>Where is ParallelCoin???</HeadTitle>
         <div class="my-24 px-8 worp" >
 

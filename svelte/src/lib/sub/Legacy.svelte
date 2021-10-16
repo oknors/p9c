@@ -1499,7 +1499,7 @@
         <div class="d6u">
           <article class="box style2">
             <h3>Pools</h3>
-            <p><a href="http://pool.parallelcoin.info/" target="_blank">ParallelCoin SHA256 pool</a></p>
+            <p><a href="https://gigapool.eu/site/mining" target="_blank">Gigapool scrypt pool</a></p>
             <p><a href="http://duo.smarterhash.com/" target="_blank">Smarterhash</a></p>
             <p><a href="http://italyiimp.com/site/mining/" target="_blank">Italyiimp</a></p>
             <p><a href="https://duo.coinstop.me/" target="_blank">Coinstop</a></p>
