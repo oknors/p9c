@@ -20,13 +20,8 @@
     const sub = getContext('sub');
     
 </script>
-
- sub:{sub} :I
-
-
-
  
-{#if sub === ""}
+{#if sub === "" || sub === "parallelcoin"}
 <ParallelCoin></ParallelCoin>
 {/if}
 {#if sub === "www"}

@@ -1319,7 +1319,7 @@
 
 <svelte:head>
   <script async custom-element="amp-video" src="https://cdn.ampproject.org/v0/amp-video-0.1.js"></script>  
-  <script async custom-element="amp-twitter" src="https://cdn.ampproject.org/v0/amp-twitter-1.0.js"></script>
+  <script async custom-element="amp-twitter" src="https://cdn.ampproject.org/v0/amp-twitter-0.1.js"></script>
   <script async custom-element="amp-facebook-page" src="https://cdn.ampproject.org/v0/amp-facebook-page-0.1.js"></script>  
 
   <link rel="preconnect" href="https://fonts.googleapis.com">

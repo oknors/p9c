@@ -1,7 +1,10 @@
 <script>
+    import HeadTitle from '$lib/components/HeadTitle.svelte';
+
 </script>
 
-<p>SubDomain is "www"</p>
+
+<HeadTitle>www is deprecated...</HeadTitle>
 
 
 
