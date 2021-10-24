@@ -5,7 +5,7 @@
         <span class="intro intro--num">from</span>
         <span class="intro">Crypto Space</span>
       </div>
-      <h1 class="text-9xl	font-title"><slot></slot></h1>
+      <h1 class="text-2xl	sm:text-3xl	md:text-5xl	lg:text-9xl	font-title text-light uppercase"><slot></slot></h1>
       </div>
     </div>
 

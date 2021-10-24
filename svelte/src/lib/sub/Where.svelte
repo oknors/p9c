@@ -7,7 +7,7 @@
         <HeadTitle>Where is ParallelCoin???</HeadTitle>
         <div class="my-24 px-8 worp" >
 
-            <amp-list layout="responsive" width="600" height="300" src="https://api.parallelcoin.io/subs" reset-on-refresh items="."
+            <amp-list layout="fixed-height" width="auto" height="900" src="https://api.parallelcoin.io/subs" reset-on-refresh items="."
                   binding="no">
             <template type="amp-mustache">
   <a class="flex flex-row justify-center my-4 text-2xl no-underline text-light" href="{'https://{{ slug }}'}.parallelcoin.info">

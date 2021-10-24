@@ -1,188 +1,403 @@
 <script>
         import HeadTitle from '$lib/components/HeadTitle.svelte';
 
+
+
   </script>
   <svelte:head>
-    <script async custom-element="amp-script" src="https://cdn.ampproject.org/v0/amp-script-0.1.js"></script>
 
-    <meta name="amp-script-src" content=""/>
+   
   </svelte:head>
-  <style>
-  
-  </style>
-
-<amp-script layout=container src="https://s.okno.rs/parallelcoin/skrollr.js">
-    <div id="skrollr-body">
-
-        <div id="slide1" class="centered"
-             data-0="display:block;"
-             data-500="opacity:1;"
-             data-2500="opacity:0;"
-             data-2501="display:none;">
 
 
-            <div id="poster">
-                <div id="banner"
-                     data-0="background-color:rgba(48,48,48,1);"
-                     data-1000="background-color:rgba(48,48,48,0);">
-                    <div class="intro"
-                         data-0="transform:translateY(0vmin);"
-                         data-500="transform:translateY(3vmin);"
-                         data-1500="transform:translateY(-100vmin);">
-                        <span>Totally unstable coin from crypto space asimilate the coins and resurrect the dead!</span></div>
-                    <h1 data-0="transform:translateY(0vmin);"
-                        data-500="transform:translateY(3vmin);"
-                        data-1500="transform:translateY(-100vmin);">Plan 9 from crypto space</h1>
-                    <div id="credits" data-0="transform:translateY(0vmin);"
-                         data-500="transform:translateY(3vmin);"
-                         data-1500="transform:translateY(-100vmin);">
-                        <span>with</span>
-                        <span class="actor">Satoshi Nakamoto</span>
-                        <span class="actor">Gophers</span>
-                        <span class="actor">Anunnaki</span>
-                        <p class="production">Public domain and open source</p>
-                        <p class="production">Produced by the people for the people</p>
-                    </div>
-                </div>
-                <!-- <amp-img src="https://s.okno.rs/parallelcoin/img/cover/cover-plan9-c.png" id="plan9">	 -->
+<div class="w-full h-screen"><amp-iframe layout="fill" sandbox="allow-scripts allow-same-origin allow-popups" src="https://plan9.parallelcoin.info/"><amp-img layout="fill" src="https://s.okno.rs/parallelcoin/img/logo.svg" placeholder></amp-img></amp-iframe></div>
 
-
-
-
-
-            </div>
-
-            <div id="posterimgs">
-                <amp-img src="https://s.okno.rs/parallelcoin/img/cover/cover-spaceship-c.png" id="spaceship"
-                     data-0="transform:translate(40%,320%) scale(0) rotate(60deg)"
-                     data-500="transform:translate(0%,100%) scale(1) rotate(0deg)"
-                     data-1500="transform:translate(-120%,-200%) scale(2) rotate(-30deg)">
-            <amp-img src="https://s.okno.rs/parallelcoin/img/cover/man-mono.png" id="man"
-                 data-0="transform:translate(0%,0%) scale3d(1,1,1);"
-                 data-1000="transform:translate(0%,0%) scale3d(1,1,1);"
-                 data-1500="transform:translate(-200%,200%) scale3d(0,1,1);">
-            <amp-img src="https://s.okno.rs/parallelcoin/img/cover/men-mono.png" id="men"
-                 data-0="opacity:1;transform:translateY(0%) scale3d(1,1,0.9)"
-                 data-900="opacity:1;transform:translateY(0%) scale3d(1,1,0.9)"
-                 data-1500="opacity:0;transform:translateY(-400%) scale3d(1,0,0.3)">
-<!--            <amp-img src="https://s.okno.rs/parallelcoin/img/cover/cover-plan9-dig.png" id="dig" data-0="transform:translateX(0%);" data-1500="transform:translateX(300%);">-->
-<!--            <amp-img src="https://s.okno.rs/parallelcoin/img/cover/cover-plan9-grave.png" id="grave" data-0="transform:translateX(0%);" data-1500="transform:translateX(200%);">-->
-            <amp-img src="https://s.okno.rs/parallelcoin/img/cover/vampira-mono.png" id="woman"
-                 data-0="transform:scale(1) translate(0%, 0%);opacity:1;"
-                 data-500="transform:scale(1) translate(0%, 100%);opacity:1;"
-                 data-1500="transform:scale(0) translate(-999%,-200% );opacity:0;">
-
-
-            </div>
-        </div>
-
-
-        <div id="slide2" class="centered" data-0="display:none;"
-             data-1098="display:block;"
-             data-10001="display:none;">
-            <h2 data-0="display:none;"
-                data-2799="display:block;"
-                data-2800="opacity:0;font-size:64px;letter-spacing:33px;"
-                data-4000="opacity:1;font-size:72px;letter-spacing:9px;"
-                data-4800="opacity:0;font-size:64px;letter-spacing:33px;"
-                data-4801="display:none;">New era is beginning</h2>
-            <h2 data-5500="opacity:0;"
-                data-6800="opacity:1;"
-                data-8200="opacity:0;">Lets make the future from the past</h2>
-
-            <amp-img class="gophersr" src="https://s.okno.rs/img/go/gopher-space-rock.png"
-                 data-2500="right: -10%;transform: rotate(-30deg) scale(0,0)"
-                 data-3500="right: 10%;transform: rotate(-15deg) scale(0.3,0.2)"
-                 data-3900="right: 40%;transform: rotate(0deg) scale(0.8,0.9)"
-                 data-4200="right: 0%;transform: rotate(-15deg) scale(1,1)"
-                 data-5100="right:150%;"
-            ></amp-img>
-
-
-            <amp-img class="sgopher" src="https://s.okno.rs/img/go/space-gopher.png"
-                 data-1500="transform: translate(1000%,0) rotate(30deg) scale(0)"
-                 data-5800="transform: translate(-100%,0) rotate(-30deg) scale(1)"
-            ></amp-img>
-
-            <amp-img class="gopherhb" src="https://s.okno.rs/img/go/ee/heart-balloon.png"
-                 data-5000="right: -100%;"
-                 data-6000="right: 43%;"
-                 data-7000="right:43%;"
-                 data-9000="right:150%;"
-            >
-
-            <amp-img class="biker" src="https://s.okno.rs/img/go/biker.png"
-                 data-1500="transform:translate(-100%,40%);"
-                 data-4400="transform:translate(-100%,60%);"
-                 data-4500="transform:translate(1%,30%);"
-                 data-5000="transform:translate(200%,-20%);"
-                 data-7000="transform:translate(700%,-30%);"
-                 data-9000="transform:translate(1250%,80%);"
-            ></amp-img>
-
-            <amp-img class="gopherru" src="https://s.okno.rs/img/go/gopher-riding-unicorn.png"
-                 data-3000="transform:translate(1200%,10%) scale(0);"
-                 data-3500="transform:translate(900%,10%) scale(1);"
-                 data-4000="transform:translate(1100%,50%) scale(1);"
-                 data-6000="transform:translate(700%,50%) scale(1);"
-                 data-6500="transform:translate(650%,10%)  scale(1);"
-                 data-7500="transform:translate(-50%,-10%) scale(0);"
-            ></amp-img>
-
-            <amp-img class="ufo" src="https://s.okno.rs/parallelcoin/img/ufo.png"
-                 data-0="top: 2%; right: -20%; width:5%; transform: rotate(-50deg);"
-                 data-5500="top: 15%; right: 20%; width:10%; transform: rotate(30deg);"
-                 data-4500="top: 15%; right: 40%; width:5%; opacity:1; transform: rotate(-30deg);"
-                 data-6500="top: 5%; right: 60%; width:1%; opacity:.3; transform: rotate(-10deg);"
-                 data-9000="top: 30%; right:100%; width:15%; opacity:1; transform: rotate(10deg);"
-            ></amp-img>
-
-            <span class="trees"
-                 data-0="transform:translate(-1%,800px);"
-                 data-3500="transform:translate(-1%,800px);"
-                 data-4500="transform:translate(-1%,0px);"
-                 data-9500="transform:translate(-50%,0px);"
-                 data-10000="transform:translate(-50%,800px);"
-            ></span>
-
-            <span class="trees2"
-                 data-0="transform:translate(1%,500px);"
-                 data-3800="transform:translate(1%,500px);"
-                 data-4500="transform:translate(1%,-100px);"
-                 data-9500="transform:translate(-30%,-100px);"
-                 data-9800="transform:translate(-30%,500px);"
-            ></span>
-
-            <span class="road"
-                 data-0="transform:translate(-1%,150px);"
-                 data-3500="transform:translate(-1%,150px);"
-                 data-4300="transform:translate(-1%,150px);"
-                  data-4500="transform:translate(-1%,1px);"
-                 data-9500="transform:translate(-80%,1px);"
-                 data-9600="transform:translate(-80%,150px);"
-            ></span>
-
-        </div>
-
-        <div id="slide3" class="centered">
-
-
-
-            <h2 data-9500="opacity:0; font-size:0vmax;"
-                data-10500="opacity:1; font-size:5vmax;">Choose your way carefully!</h2>
-<div class="centered logo"
-     data-9000="width:0vmax; height:0vmax;"
-     data-10000="width:48vmax; height:48vmax;">
-            <amp-img class="centered parallelcoin" src="https://s.okno.rs/parallelcoin/img/logo.svg"
-                 data-10000="width: 0vmax; height:0vmax;"
-                 data-10500="width:32vmax; height:48vmax;"></amp-img>
-</div>
-            <a href="https://legacy.parallelcoin.info/" class="link legacy" data-10000="bottom:-100vmax;width: 0vmax; height:0vmax;"
-               data-10500="bottom: 20vmax;width:12vmax; height:12vmax;"></a>
-            <a href="https://parallelcoin.info/" class="link plan" data-10000="bottom:-100vmax;width: 0vmax; height:0vmax;"
-               data-10500="bottom: 20vmax; width:12vmax; height:12vmax;"></a>
-        </div>
-    </div>
-
+ <style>
     
-      </amp-script>
+     #poster { 
+          perspective: 60vmax;
+          width: 100%;
+          position: relative;
+          min-height: 100%;
+         margin: 0 auto;
+     }
+     
+     #banner { 
+          text-transform: uppercase; 
+          text-align: center; 
+          font-size: 3vmin;
+          width: 62%;
+     
+          line-height: .9; 
+          transform-origin: top left; 
+          transform: rotateX(15deg) skewX(9deg) translateX(0);
+          background: #fff; 
+          position: relative;
+          height: 100%;
+     }
+     #banner h1 {
+          top:24vmax;
+          font-family: 'plan9regular', sans-serif; 
+          color: #CF3030;
+          font-size: 12vmin;
+          letter-spacing: .2vmin;
+       line-height: 1.2;
+     }
+     #banner .intro {
+          padding: 0 9vmin;
+          font-family: 'bariolregular', sans-serif; 
+          font-size: 0.9rem;
+          letter-spacing: 0;
+          line-height: 1.6;
+     }
+     #posterimgs{
+          position: relative;
+          width: 100%;
+          height: 100%;
+     }
+     #man {
+          position: absolute;
+          bottom: 0px;
+          left: 0px;
+          max-width: 38vh;
+          max-height: 200px;
+     }
+     #men {
+          position: absolute;
+          bottom: 0;
+          left: 50px;
+          max-width: 38vh;
+          max-height: 100px;
+     }
+     #dig {
+          position: absolute;
+          bottom: 30px;
+          right:20px;
+          max-width: 38vh;
+          max-height: 100px;
+     }
+     #woman {
+          position: absolute;
+          bottom: 120px;
+          right: 0;
+          max-width: 38vh;
+          max-height:160px;
+     }
+     #grave {
+          position: absolute;
+          bottom: 80px;
+          right: 0px;
+          max-width: 38vh;
+          max-height: 100px;
+     }
+     #plan9 {
+          position: absolute;
+          bottom: 0;
+       width:100%;
+     }
+     #spaceship {
+          position: absolute;
+          top: 20px;
+          right: 9%;
+          max-width: 38vh;
+          max-height: 150px;
+     }
+     #credits {
+          position: absolute;
+          top:72vmax;
+          right: 3vmax;
+       width: 50%;
+          text-align: center;
+     }
+     #credits span:first-of-type {
+          font-size: 16px;
+          letter-spacing: 1px;
+          margin-top: 1rem;
+       line-height: 1.6;
+     }
+     .actor {
+          text-transform: uppercase;
+          font-size: 12px;
+          letter-spacing: 0;
+          display: block;
+          line-height: 1.2;
+     }
+     .production {
+          font-size: 6px;
+          letter-spacing: 0px;
+          font-family: 'bariolregular'; 
+          line-height: 0.2;
+     }
+     
+     
+     .link{
+          position: absolute;
+          bottom: 5vmax;
+          background-color: #cfcfcf;
+          background-size: 88%;
+          background-repeat: no-repeat;
+          background-position: center;
+          border-radius: 100%;
+     }
+     
+     .link {
+          width: 92px;
+          height: 92px;
+          box-shadow: 0 0 0 4px rgba(255, 255, 255, 1);
+     }
+     .link.small {
+          width:45px;
+          height:45px;
+     }
+     .link.mini {
+          width:30px;
+          height:30px;
+     }
+     .hovicon.effect-4:before {
+          line-height: 92px;
+     }
+     .hovicon.effect-4:after {
+          top: -4px;
+          left: -4px;
+          padding: 0;
+          z-index: 10;
+          border: 4px dashed #fff;
+     }
+     .hovicon.effect-4:hover {
+          box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+          color: #fff;
+     }
+     .hovicon.effect-4:hover i {
+          color: #fff;
+     }
+     /* Effect 4b */
+     .link:hover {
+          -webkit-transition: box-shadow 0.2s;
+          -moz-transition: box-shadow 0.2s;
+          transition: box-shadow 0.2s;
+     }
+     .link:hover:after {
+          -webkit-animation: spinAround 9s linear infinite;
+          -moz-animation: spinAround 9s linear infinite;
+          animation: spinAround 9s linear infinite;
+     }
+     @-webkit-keyframes spinAround {
+          from {
+               -webkit-transform: rotate(0deg)
+          }
+          to {
+               -webkit-transform: rotate(360deg);
+          }
+     }
+     @-moz-keyframes spinAround {
+          from {
+               -moz-transform: rotate(0deg)
+          }
+          to {
+               -moz-transform: rotate(360deg);
+          }
+     }
+     @keyframes spinAround {
+          from {
+               transform: rotate(0deg)
+          }
+          to {
+               transform: rotate(360deg);
+          }
+     }
+     
+     
+     .legacy{
+          left: 12vmax;
+          background-image: url("https://s.okno.rs/img/go/legacy.png");
+          background-size: 100%;
+          background-position: -10% bottom;
+     }
+     .plan{
+          right: 12vmax;
+          background-image: url("https://s.okno.rs/img/go/p9c.png");
+     }
+     #skrollr-body {width:100%; height:100%; position:fixed; }
+     #skrollr-body div {overflow:hidden; position:absolute; }
+     
+     .centered { top:0; bottom:0; left:0; right:0; margin:auto; }
+     
+     #slide1     {z-index:10; background: linear-gradient(rgba(48,128,207,0.38),rgba(255,255,255,0.38) 62%);}
+     #slide1 h1  {position:absolute; text-align: center; width:72%; left:0; right:0; margin:0 auto;}
+     
+     
+     #slide2     {z-index:9;}
+     #slide2 h2  {position:absolute; text-align: center; left:0; right:0; margin:15% auto 0;white-space: nowrap;}
+     
+     img.biker     {position:absolute; bottom: 0;max-width:160px;}
+     img.gopherru     {position:absolute; top: 3%;max-width:140px;}
+     img.ufo     {position:absolute; top: 5%;}
+     
+     img.gophersr  {position:absolute; bottom: 45%;max-width:120px;}
+     img.gopherhb  {position:absolute; bottom: 45%;max-width:60px;z-index:-2;}
+     img.sgopher  {position:absolute; top: 5%;max-width:140px;}
+     img.bgopher  {position:absolute;bottom: 35%;max-width:60px;}
+     
+     span.road    {position:absolute; bottom:0;width:900%; height:100px; background: url(https://s.okno.rs/parallelcoin/img/road.jpg) repeat-x; z-index: -1; background-size: 300px;}
+     
+     span.trees   {position:absolute; left:-60px;bottom:90px;width:600%; height:380px; background: url(https://s.okno.rs/parallelcoin/img/trees.png) repeat-x; z-index: -2; background-size: 300px; opacity: 1}
+     span.trees2   {position:absolute; bottom:0px;width:600%; height:260px; background:url(https://s.okno.rs/parallelcoin/img/trees.png) repeat-x; z-index: -3; background-size: 200px; opacity: .6}
+     
+     
+     #slide3 .logo    {width:62vmin; height:62vmin;z-index:10;}
+     #slide3 h2  {position:absolute; text-align: center; left:0; right:0; top:8rem; bottom:0; margin:0 auto;}
+     img.parallelcoin {position:absolute; left:0; right:0; margin:0 auto;}
+     
+     
+     
+     
+     @media (min-width:777px){
+          button.tab{
+               border-left-width:4px;
+               border-bottom-width:0
+          }
+          button.active-tab,button.tab:hover{
+               color:var(--purple);
+               color:rgba(59,121,119,var(--text-opacity))
+          }
+          button.active-tab,button.active-tab:hover,button.tab:hover{
+               --text-opacity:1;
+               border-left-width:4px;
+               border-bottom-width:0
+          }
+          button.active-tab:hover{
+               color:#4a5568;
+               color:rgba(74,85,104,var(--text-opacity))
+          }
+          #posterimgs{
+               max-width: 64rem;
+          }
+          #banner {
+               width: 62%;
+               max-width: 42rem;
+               transform: rotateX(15deg) skewX(15deg) translateX(3vw);
+          }
+          #banner h1 {
+               top:12rem;
+               font-size: 9rem;
+               letter-spacing: 1px;
+               line-height: 1.1;
+          }
+          #banner .intro {
+               top:4rem;
+               width: 100%;
+               padding: 0;
+               font-size: 1rem;
+               letter-spacing: 2px;
+               line-height: 1.2;
+          }
+          #banner .intro span{
+               display: block;
+               margin: 0 auto;
+               max-width: 16rem;
+          }
+          #man {
+               position: absolute;
+               bottom: 0px;
+               left: 0px;
+               max-width: 320px;
+               max-height: 480px;
+          }
+          #men {
+               position: absolute;
+               bottom: 10px;
+               left: 100px;
+               max-width: 240px;
+               max-height: 240px;
+          }
+          #dig {
+               position: absolute;
+               bottom: 350px;
+               right:200px;
+               max-width: 38vh;
+               max-height: 62vw;
+          }
+          #woman {
+               position: absolute;
+               bottom: 3rem;
+               right: 0;
+               max-width: 120px;
+               max-height: 280px;
+          }
+          #grave {
+               position: absolute;
+               bottom: 180px;
+               right: 0px;
+               max-width: 38vh;
+               max-height: 62vw;
+          }
+          #plan9 {
+               position: absolute;
+               bottom: 0;
+               width:100%;
+          }
+          #spaceship {
+               position: absolute;
+               top: 80px;
+               right:0;
+               max-width: 240px;
+               max-height: 240px;
+          }
+          #credits {
+               position: absolute;
+               top:52rem;
+               right: 3vmax;
+               width: 50%;
+               text-align: center;
+          }
+          #credits span:first-of-type {
+               font-size: 0.6rem;
+               letter-spacing: 1px;
+               margin-top: 1rem;
+               line-height: 1.6;
+          }
+          .actor {
+               text-transform: uppercase;
+               font-size: 1.2rem;
+               letter-spacing: 0;
+               display: block;
+               line-height: 1.2;
+          }
+          .production {
+               font-size: 0.6rem;
+               letter-spacing: 0px;
+               line-height: 0.2;
+          }
+     
+     }
+     
+     @media (min-width:1999px){
+          #banner {
+               max-width: 72rem;
+               transform: rotateX(15deg) skewX(15deg) translateX(3vw);
+          }
+          #banner h1 {
+     
+          }
+          #posterimgs{
+               max-width: 111rem;
+          }
+          #man {
+               max-width: 440px;
+               max-height: 820px;
+          }
+          #men {
+               max-width: 480px;
+               max-height: 480px;
+               left:200px;
+          }
+          #dig {
+               max-width: 38vh;
+               max-height: 62vw;
+          }
+          #woman {
+               max-width: 240px;
+               max-height: 560px;
+          }
+     }
+     </style>

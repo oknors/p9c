@@ -45,17 +45,17 @@
 </svelte:head>
 
 
-{#if sub !== "legacy"}
+{#if sub === "legacy"}
+<slot></slot>
+{:else if sub === "parallelcoin"}
+<slot></slot>
+{:else}
 <div id="layout" class="relative flex flex-col items-center justify-between min-h-screen antialiased font-text text-text-primary ">
     <Bg></Bg>
-    <Header>
-    </Header>
+    <Header></Header>
     <main class="flex flex-col flex-1 w-full text-text-primary">
         <slot></slot>
     </main>
-    <Footer>
-</Footer>
-</div>
-{:else}
-    <slot></slot>
-{/if}
+    <Footer></Footer>
+</div>    
+    {/if}
