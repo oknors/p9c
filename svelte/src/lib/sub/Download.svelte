@@ -5,8 +5,9 @@
 </script>
 <svelte:head>
   <script async custom-element="amp-lightbox" src="https://cdn.ampproject.org/v0/amp-lightbox-0.1.js"></script>
-</svelte:head>
-  <style>
+     <title>Download ParallelCoin wallet - Plan 9 from Cryptospace</title>
+     <link rel="canonical" href="https://download.parallelcoin.info/">
+  </svelte:head>  <style>
     body > div{
       background-image: url(https://s.okno.rs/parallelcoin/img/detectivzombi.png),url(https://s.okno.rs/img/go/crash-dummy.svg);
       background-repeat: no-repeat;

@@ -4,6 +4,9 @@
 </script>
 <svelte:head>
 <script async custom-element="amp-lightbox" src="https://cdn.ampproject.org/v0/amp-lightbox-0.1.js"></script>
+
+  <title>ParallelCoin log - Plan 9 from Cryptospace</title>
+  <link rel="canonical" href="https://log.parallelcoin.info/">
 </svelte:head>
 <style>
 

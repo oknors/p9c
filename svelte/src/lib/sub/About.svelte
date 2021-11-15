@@ -4,6 +4,9 @@
 </script>
 <svelte:head>
 <script async custom-element="amp-lightbox" src="https://cdn.ampproject.org/v0/amp-lightbox-0.1.js"></script>
+
+  <title>About ParallelCoin - Plan 9 from Cryptospace</title>
+  <link rel="canonical" href="https://about.parallelcoin.info/">
 </svelte:head>
       {@html '<amp-state id="about" src="https://api.parallelcoin.io/about"></amp-state>'}
   

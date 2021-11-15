@@ -3,6 +3,11 @@
       import Socials from '$lib/components/Socials.svelte';
 
 </script>
+
+<svelte:head>
+      <title>Where is ParallelCoin? - Plan 9 from Cryptospace</title>
+      <link rel="canonical" href="https://where.parallelcoin.info/">
+   </svelte:head>
 <div class="flex flex-col text-center md:container md:mx-auto md:px-0">
         <HeadTitle>Where is ParallelCoin???</HeadTitle>
         <div class="my-24 px-8 worp" >

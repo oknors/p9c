@@ -1,16 +1,15 @@
 <script>
-        import HeadTitle from '$lib/components/HeadTitle.svelte';
 
 
 
   </script>
   <svelte:head>
-
-   
+     <title>ParallelCoin - Plan 9 from Cryptospace</title>
+     <link rel="canonical" href="https://parallelcoin.info/">
   </svelte:head>
 
 
-<div class="w-full h-screen"><amp-iframe layout="fill" sandbox="allow-scripts allow-same-origin allow-popups" src="https://plan9.parallelcoin.info/"><amp-img layout="fill" src="https://s.okno.rs/parallelcoin/img/logo.svg" placeholder></amp-img></amp-iframe></div>
+<div class="w-full h-screen"><amp-iframe layout="fill" sandbox="allow-scripts allow-same-origin allow-popups" src="https://plan9.parallelcoin.info/"><amp-img layout="responsive" src="https://s.okno.rs/parallelcoin/img/splash.svg" placeholder></amp-img></amp-iframe></div>
 
  <style>
     

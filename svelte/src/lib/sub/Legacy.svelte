@@ -1325,8 +1325,11 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Open+Sans:wght@300;600;700&family=Oswald:wght@300;700&display=swap" rel="stylesheet">
-</svelte:head>
 
+  
+     <title>ParallelCoin Legacy - Plan 9 from Cryptospace</title>
+     <link rel="canonical" href="https://legacy.parallelcoin.info/">
+  </svelte:head>
 
 <div class="scs">
 <!-- Nav -->

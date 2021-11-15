@@ -622,12 +622,6 @@ video {
 		max-width: 1536px;
 	}
 }
-.visible {
-	visibility: visible;
-}
-.fixed {
-	position: fixed;
-}
 .absolute {
 	position: absolute;
 }
@@ -642,9 +636,6 @@ video {
 }
 .top-2 {
 	top: 0.5rem;
-}
-.top-full {
-	top: 100%;
 }
 .m-16 {
 	margin: 4rem;
@@ -702,9 +693,6 @@ video {
 }
 .h-8 {
 	height: 2rem;
-}
-.h-64 {
-	height: 16rem;
 }
 .min-h-screen {
 	min-height: 100vh;

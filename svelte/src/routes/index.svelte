@@ -1,7 +1,3 @@
-<script context="module">
-    let COMponent;
-</script>
-
 <script>
     import { getContext } from 'svelte';
 
@@ -51,7 +47,6 @@
 {#if sub === "about"}
 <About></About>
 {/if}
-<svelte:component this={COMponent}></svelte:component>
 
 
 <style>
